@@ -1,0 +1,4 @@
+
+  RewriteEngine on
+  RewriteRule ^$ Vue/ [L]
+  RewriteRule (.*) Vue/$1 [L]
